@@ -16,6 +16,6 @@ def main(data: str):
 
 # Read data from file
 f = open('./txt_file/data10.txt')
-data = f.read()
+x = f.read()
 f.close()
-print(main(data))
+print(main(x))
