@@ -13,7 +13,7 @@ def main(data: str):
 
 
 # Read data from file
-f = open('./txt_file/data02.txt')
+f = open('./txt_file/data01.txt')
 x = f.read()
 f.close()
 main(x)
