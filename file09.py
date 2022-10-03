@@ -1,8 +1,9 @@
 def main(data: str):
-    a = 0
+    a = 1000000
     for i in data:
-        if (i.islower()):
-            a += 1
+        if (i.isdigit() == True):
+            if (a > int(i)):
+                a = int(i)
     return a
     """
     The data is from the file. Find the smallest of the numeric characters.

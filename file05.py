@@ -1,7 +1,7 @@
 def main(data: str):
     a = 0
     for i in data:
-        if i.isdigit() == False:
+        if i.isdigit() == True:
             a += 1
     return [a, len(data)-a]
     """
