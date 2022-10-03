@@ -1,5 +1,5 @@
 def main(data: str):
-    x = data.split('\n')
+    x = data
     a = 0
     for i in x:
         if (len(i) > a):
@@ -17,5 +17,6 @@ def main(data: str):
 # Read data from file
 f = open('./txt_file/data10.txt')
 x = f.read()
+x = x.split('\n')
 f.close()
 print(main(x))
